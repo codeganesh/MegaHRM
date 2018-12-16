@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserAdministration", "UserAdministration", "{0E11534C-EC00-4EE2-8D38-39801AAB24A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaHRM.Admin.Data", "src\MegaHRM.Admin.Data\MegaHRM.Admin.Data.csproj", "{22B104B3-03EC-4115-A507-1DC6A137C0EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MegaHRM.Admin.Data", "src\MegaHRM.Admin.Data\MegaHRM.Admin.Data.csproj", "{22B104B3-03EC-4115-A507-1DC6A137C0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaHRM.Web", "src\MegaHRM.Web\MegaHRM.Web.csproj", "{3C77772A-761A-400E-9870-1A4711969D2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{22B104B3-03EC-4115-A507-1DC6A137C0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B104B3-03EC-4115-A507-1DC6A137C0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B104B3-03EC-4115-A507-1DC6A137C0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C77772A-761A-400E-9870-1A4711969D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C77772A-761A-400E-9870-1A4711969D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C77772A-761A-400E-9870-1A4711969D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C77772A-761A-400E-9870-1A4711969D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
